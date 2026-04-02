@@ -29,6 +29,7 @@ annotations:
     - kind: changed
       description: |
         feat: Make injector.external(Bao|Vault)Addr take precendence over global.external(Bao|Vault)Addr
+        feat: Support bearerTokenFile for ServiceMonitor
 maintainers:
   - name: OpenBao
     email: openbao-security@lists.openssf.org

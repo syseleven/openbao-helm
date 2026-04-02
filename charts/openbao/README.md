@@ -1,6 +1,10 @@
 # openbao
 
+<<<<<<< HEAD
 ![Version: 0.27.0](https://img.shields.io/badge/Version-0.27.0-informational?style=flat-square) ![AppVersion: v2.5.2](https://img.shields.io/badge/AppVersion-v2.5.2-informational?style=flat-square)
+=======
+![Version: 0.27.0](https://img.shields.io/badge/Version-0.27.0-informational?style=flat-square) ![AppVersion: v2.5.1](https://img.shields.io/badge/AppVersion-v2.5.1-informational?style=flat-square)
+>>>>>>> ServiceMonitor/support-bearerTokenFile
 
 Official OpenBao Chart
 
@@ -317,6 +321,7 @@ Kubernetes: `>= 1.30.0-0`
 | serverTelemetry.prometheusRules.rules | list | `[]` |  |
 | serverTelemetry.prometheusRules.selectors | object | `{}` |  |
 | serverTelemetry.serviceMonitor.authorization | object | `{}` |  |
+| serverTelemetry.serviceMonitor.bearerTokenFile | string | `nil` | bearerTokenFile defines the file to read bearer token for scraping the target. |
 | serverTelemetry.serviceMonitor.enabled | bool | `false` |  |
 | serverTelemetry.serviceMonitor.interval | string | `"30s"` |  |
 | serverTelemetry.serviceMonitor.port | string | `""` | Port which Prometheus uses when scraping metrics. If empty will use `openbao.scheme` helper for its value |

@@ -2,11 +2,15 @@
 
 ## 0.27.0
 
+<<<<<<< HEAD
 - feat: Make injector.external(Bao|Vault)Addr take precendence over global.external(Bao|Vault)Addr
 
 ## 0.26.2
 
 - chore: Update OpenBao to version 2.5.2
+=======
+- feat: Support bearerTokenFile for ServiceMonitor
+>>>>>>> ServiceMonitor/support-bearerTokenFile
 
 ## 0.26.1
 
